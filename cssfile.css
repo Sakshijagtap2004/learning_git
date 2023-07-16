@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #958989;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  color:#958989;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+a.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* table-styles.css */
+
+/* Reset default table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+/* Add your CSS rules for table styling below */
+
+/* Example rule: table header */
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Example rule: table cells */
+td {
+  padding: 8px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Example rule: adding a border to images */
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+/* Example rule: adjusting image size */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Example rule: on click effect */
+img:hover {
+  opacity: 0.8;
+}
+
+
+
+
